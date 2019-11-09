@@ -1,0 +1,10 @@
+.error-number {
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.error-message {
+    font-weight: bolder;
+}

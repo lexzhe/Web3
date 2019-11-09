@@ -1,0 +1,80 @@
+aside {
+    margin-left: 1rem;
+}
+
+.middlePost {
+    margin-right: 22rem;
+}
+
+div.middlePost article div.title {
+    color: #3B5998;
+    font-size: larger;
+}
+
+div.middlePost article div.information {
+    color: var(--border-color);
+    font-size: smaller;
+}
+
+div.middlePost article div.footer {
+//display: inline-block;
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+//display: table;
+}
+
+div.middlePost article div.footer div.right {
+    position: absolute;
+    padding-top: 10px;
+//top: 1px;
+    right: 1rem;
+    bottom: 11px;
+}
+
+div.right img {
+    display: inline-block;
+//vertical-align: middlePost;
+    position: relative;
+    bottom: 2px;
+}
+
+
+div.middlePost article div.footer div.left {
+    padding-top: 5px;
+    display: inline-block;
+//line-height: inherit;
+//text-align: center;
+    margin-left: 1rem;
+//vertical-align: middlePost;
+}
+
+div.middlePost article ul.attachment li {
+    background: url("../img/paperclip-16x16.png") left center no-repeat;
+    color: var(--border-color);
+    padding-top: 5px;
+//height: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+div.middlePost article ul.attachment {
+//list-style-image: url("../img/paperclip-16x16.png");
+    list-style: none;
+    padding-left: 0;
+    font-size: smaller;
+}
+
+div.middlePost article div.body {
+    border-left: 3px solid var(--border-color);
+    padding-left: 2rem;
+}
+
+span.positive-score {
+    display: inline-block;
+//vertical-align: middlePost;
+    line-height: inherit;
+    font-weight: bolder;
+    color: green;
+    padding-bottom: 10px;
+}

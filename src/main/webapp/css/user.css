@@ -1,0 +1,30 @@
+main .userbox {
+    /*position: relative;*/
+margin-right: 20rem;
+}
+
+main .userbody {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+main .userbody img {
+    /*position: absolute;*/
+    /*right: 0.5rem;*/
+    /*top: 0.5rem;*/
+
+}
+
+main .userbody ul {
+    padding-inline-start: 2rem;
+}
+
+main .username {
+    font-size: 30px;
+}
+
+main .userfooter a{
+    text-decoration: none;
+    font-size: 3rem;
+}
